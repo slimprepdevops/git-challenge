@@ -17,16 +17,49 @@
 <body>
 
     <div class="container py-5">
+        
+
         <div class="col-md-10 offset-md-1">
-            <div class="intro-note pt-5" id="about">
-                <h5>Hello,</h5>
-                <p>Welcome to the Office Node Application Completion form. </p>
-                <p>Please use the form below to complete the necessary details requited for your company.</p>
+            <span class="Form" id="formComplex"></span>
+            <hr class="my-5">
+            <h3>Company Information </h3>
+
+            <!-- form complex example -->
+            <div class="form-row mt-4">
+                <div class="col-sm-5 pb-3">
+                    <label for="exampleAccount">Company Name *</label>
+                    <input type="text" class="form-control" id="exampleAccount">
+                </div>
+                <div class="col-sm-4 pb-3">
+                    <label for="exampleCtrl">Website</label>
+                    <input type="text" class="form-control" id="domain-name" placeholder="www.example.com">
+                </div>
+                <div class="col-sm-3 pb-3">
+                    <label for="exampleAmount">Company Phone</label>
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" id="rc-number" placeholder="Phone">
+                    </div>
+                </div>
+
+                <div class="col-sm-9 pb-3">
+                    <label for="exampleFirst">Company Address *</label>
+                    <input type="text" class="form-control" id="exampleFirst">
+                </div>
+                <div class="col-sm-3 pb-3">
+                    <label for="exampleSt">Select Plan</label>
+                    <select class="form-control" id="plan">
+                        <option disabled>Select Plan</option>
+                        <option value="basic">Basic</option>
+                        <option value="essential">Essential</option>
+                        <option value="pro">Pro</option>
+                    </select>
+                </div>
                 
-                <h5>About this Form</h5>
-                <p>This Form allows us to deliver your request based on your specification. You get to verify your plan, choose a subdomain and create the administrator for your account. </p>
-                <p>Do well to read the <a href="#"><b>plan details </b></a> before selecting a plan</p>
+                
+
             </div>
+
         </div>
 
 
