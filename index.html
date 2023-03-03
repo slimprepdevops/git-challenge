@@ -27,58 +27,59 @@
 
             <!-- form complex example -->
             <div class="form-row mt-4">
-                <div class="col-sm-5 pb-3">
-                    <label for="exampleAccount">Company Name *</label>
-                    <input type="text" class="form-control" id="exampleAccount">
-                </div>
-                <div class="col-sm-4 pb-3">
-                    <label for="exampleCtrl">Website</label>
-                    <input type="text" class="form-control" id="domain-name" placeholder="www.example.com">
-                </div>
-                <div class="col-sm-3 pb-3">
-                    <label for="exampleAmount">Company Phone</label>
-                    <div class="input-group">
-
-                        <input type="text" class="form-control" id="rc-number" placeholder="Phone">
-                    </div>
+                
+                <div class="col-sm-12 pb-3"> <br>
+                    <h6>Administrator's Details</h6>
                 </div>
 
-                <div class="col-sm-9 pb-3">
-                    <label for="exampleFirst">Company Address *</label>
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleFirst">First Name *</label>
                     <input type="text" class="form-control" id="exampleFirst">
                 </div>
-                <div class="col-sm-3 pb-3">
-                    <label for="exampleSt">Select Plan</label>
-                    <select class="form-control" id="plan">
-                        <option disabled>Select Plan</option>
-                        <option value="basic">Basic</option>
-                        <option value="essential">Essential</option>
-                        <option value="pro">Pro</option>
-                    </select>
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleLast">Last Name *</label>
+                    <input type="text" class="form-control" id="exampleLast">
+                </div>
+                <div class="col-sm-7 pb-3">
+                    <label for="exampleCity">Email *</label>
+                    <input type="text" class="form-control" id="exampleCity">
                 </div>
 
-                <div class="col-sm-12 pb-3"> <br>
-                    <h6>Domain Information</h6>
-                    <small>- must me more than 4 characters </small>
-                    <br>
-                    <small>- must not include special characters : <span class="text-muted">([{-/^&$#@!_)}]+</span></small>
+                <div class="col-sm-5 pb-3">
+                    <label for="exampleZip">Phone Number *</label>
+                    <input type="text" class="form-control" id="phonenumber">
                 </div>
-                
-                <div class="col-sm-6 col-md-4 pb-3">
-                    <label for="exampleFirst">Desired subdomain *</label>
-                    <input type="text" class="form-control" id="exampleFirst" placeholder="yourdomain">
-                </div>
-                
+
                 <div class="col-sm-6 pb-3">
-                    <label for="exampleFirst">URL Representation</label>
-                    <input type="text" class="form-control" id="exampleFirst" disabled value="yourdomain.officenode.com">
+                    <label for="exampleFirst">Password *</label>
+                    <input type="password" class="form-control" id="pwd">
                 </div>
-                <div class="col-sm-6 col-md-2 pb-3 pl-3 pt-2">
-                    <br>
-                    <i class="fa fa-times text-danger"></i>
-                    <i class="fa fa-check text-success"></i>
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleLast">Confirm Password *</label>
+                    <input type="password" class="form-control" id="exampleLast">
                 </div>
                 
+                <div class="col-12 mb-2 mt-4">
+                    <label for="terms_of_use">I agree to the <a href="#">Terms of Use </a> and <a href="#">Policy</a> guiding the use of this <a href="#about">Application</a></label>
+                    <input type="checkbox" class="" id="terms_of_use">
+                </div>
+                <div class="col-12 mb-4">
+                    <label for="proof_of_form">I <b>FULL NAME</b>, confirm the information provided to be accurate. </label>
+                    <input type="checkbox" class="" id="proof_of_form">
+                </div>
+
+                <div class="form-group row mt-3">
+
+                    <div class="col">
+                        <input type="button" class="btn btn-primary" value="Complete Registration">
+                    </div>
+                    
+                    <div class="col">
+                        <a href="#cancle_reg" class="btn btn-outline-warning">Terminate Request</a>
+                    </div>
+                    
+                </div>
+
 
                 
                 
