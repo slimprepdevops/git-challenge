@@ -1,12 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <title>Form</title>
+
+
 </head>
+
 <body>
-    <h1>Welcome</h1>
+
+    <div class="container py-5">
+        
+
+        <div class="col-md-10 offset-md-1">
+            
+            <span class="Form" id="formComplex"></span>
+            <hr class="my-5">
+            <h3>Company Information </h3>
+
+            <!-- form complex example -->
+            <div class="form-row mt-4">
+                
+                <div class="col-sm-12 pb-3"> <br>
+                    <h6>Administrator's Details</h6>
+                </div>
+
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleFirst">First Name *</label>
+                    <input type="text" class="form-control" id="exampleFirst">
+                </div>
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleLast">Last Name *</label>
+                    <input type="text" class="form-control" id="exampleLast">
+                </div>
+                <div class="col-sm-7 pb-3">
+                    <label for="exampleCity">Email *</label>
+                    <input type="text" class="form-control" id="exampleCity">
+                </div>
+
+                <div class="col-sm-5 pb-3">
+                    <label for="exampleZip">Phone Number *</label>
+                    <input type="text" class="form-control" id="phonenumber">
+                </div>
+
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleFirst">Password *</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="col-sm-6 pb-3">
+                    <label for="exampleLast">Confirm Password *</label>
+                    <input type="password" class="form-control" id="exampleLast">
+                </div>
+                
+                <div class="col-12 mb-2 mt-4">
+                    <label for="terms_of_use">I agree to the <a href="#">Terms of Use </a> and <a href="#">Policy</a> guiding the use of this <a href="#about">Application</a></label>
+                    <input type="checkbox" class="" id="terms_of_use">
+                </div>
+                <div class="col-12 mb-4">
+                    <label for="proof_of_form">I <b>FULL NAME</b>, confirm the information provided to be accurate. </label>
+                    <input type="checkbox" class="" id="proof_of_form">
+                </div>
+
+                <div class="form-group row mt-3">
+
+                    <div class="col">
+                        <input type="button" class="btn btn-primary" value="Complete Registration">
+                    </div>
+                    
+                    <div class="col">
+                        <a href="#cancle_reg" class="btn btn-outline-warning">Terminate Request</a>
+                    </div>
+                    
+                </div>
+
+
+                
+                
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="..js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>
